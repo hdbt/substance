@@ -1,0 +1,64 @@
+/**
+ * Portfolio preview
+ */
+ 
+.ompf-portfolio {
+	margin-right:0;
+}
+
+.ompf-portfolio-thumb {
+	float:none;
+	margin-right:0;
+	margin-bottom:1em;
+}
+
+.ompf-portfolio.ompf-size-xsmall .ompf-portfolio-thumb,
+.ompf-portfolio.ompf-size-small .ompf-portfolio-thumb,
+.ompf-portfolio.ompf-size-medium .ompf-portfolio-thumb,
+.ompf-portfolio.ompf-size-large .ompf-portfolio-thumb {
+	width: 100%;
+}
+
+.ompf-portfolio-thumb .ompf-pic {
+	padding-top:0 !important;
+}
+
+.ompf-portfolio-thumb .ompf-pic-inner {
+	position:static;
+}
+
+.ompf-portfolio-thumb .ompf-pic img {
+	width:100%;
+}
+
+/**
+ * Portfolio Item
+ */
+ 
+.ompf-portfolio-single.ompf-ratio-2v1 .ompf-portfolio-single-media,
+.ompf-portfolio-single.ompf-ratio-2v1 .ompf-portfolio-single-description,
+.ompf-portfolio-single.ompf-ratio-1v1 .ompf-portfolio-single-media,
+.ompf-portfolio-single.ompf-ratio-1v1 .ompf-portfolio-single-description,
+.ompf-portfolio-single.ompf-ratio-1v2 .ompf-portfolio-single-media,
+.ompf-portfolio-single.ompf-ratio-1v2 .ompf-portfolio-single-description {
+	float:none;
+}
+
+.ompf-portfolio-single.ompf-ratio-2v1 .ompf-portfolio-single-media,
+.ompf-portfolio-single.ompf-ratio-2v1 .ompf-portfolio-single-description,
+.ompf-portfolio-single.ompf-ratio-1v1 .ompf-portfolio-single-media,
+.ompf-portfolio-single.ompf-ratio-1v1 .ompf-portfolio-single-description,
+.ompf-portfolio-single.ompf-ratio-1v2 .ompf-portfolio-single-media,
+.ompf-portfolio-single.ompf-ratio-1v2 .ompf-portfolio-single-description {
+	width:auto;
+}
+
+.ompf-portfolio-single.ompf-ratio-2v1.ompf-media-position-left .ompf-portfolio-single-media,
+.ompf-portfolio-single.ompf-ratio-1v1.ompf-media-position-left .ompf-portfolio-single-media,
+.ompf-portfolio-single.ompf-ratio-1v2.ompf-media-position-left .ompf-portfolio-single-media,
+.ompf-portfolio-single.ompf-ratio-2v1.ompf-media-position-right .ompf-portfolio-single-description,
+.ompf-portfolio-single.ompf-ratio-1v1.ompf-media-position-right .ompf-portfolio-single-description,
+.ompf-portfolio-single.ompf-ratio-1v2.ompf-media-position-right .ompf-portfolio-single-description {
+	margin-right:0;
+}
+
